@@ -38,8 +38,8 @@ $(function () {
                 containment: "parent",
             }).resizable({
                 containment: "parent",
-                minHeight: 400,
-                minWidth: 500,
+                minHeight: 200,
+                minWidth: 400,
                 resize: function () {
                     checkOverflow($window);
                 },
