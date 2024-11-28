@@ -23,7 +23,7 @@ html {
 }
 
 body {
-	background-color: #0b120d;
+	background-color: #101715;
 	overflow: hidden;
 }
 
@@ -158,7 +158,7 @@ body, html {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: url(../img/screenGrid.png) repeat;
+	background: url(../assets/images/grid.png) repeat;
 	z-index: 3;
 	pointer-events: none;
 	display: none;
@@ -193,7 +193,7 @@ body, html {
 	left: 35px;
 	opacity: .015;
 	display: none;
-	background-image: url(../img/noise.gif);
+	background-image: url(../assets/animations/noise.gif);
 	z-index: 5;
 	pointer-events: none;
 }
@@ -277,7 +277,7 @@ body, html {
 }
 
 .desktop .apps .app-icon i:hover {
-	color: #ADD8E6;
+	color: #dae3e1;
 }
 
 .desktop .apps .app-icon span {
