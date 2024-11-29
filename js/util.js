@@ -7,7 +7,7 @@ document.addEventListener('mouseup', function() {
 });
 
 function clickSound() {
-    const audio = new Audio('../assets/audio/click.mp3');
+    const audio = new Audio('assets/audio/click.mp3');
     audio.play();
 }
 
