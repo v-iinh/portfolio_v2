@@ -31,18 +31,21 @@ $shutdown.on("click", function () {
 
 function handleWindow($trigger, $window) {
     $trigger.on("click", function () {
-        $window.fadeIn(300).css("transform", "scale(1)").draggable({
+        
+        $window.fadeIn(300).css("transform", "scale(1)").focus();
+        $window.draggable({
             handle: ".window-header",
             containment: "parent",
         }).resizable({
             containment: "parent",
             minHeight: 200,
             minWidth: 400,
-            resize: function () {
-                checkOverflow($window);
-            },
         });
-        checkOverflow($window);
+    });
+
+    $window.on("focus", function () {
+        $(".explorer-window").css("zIndex", 1);
+        $window.css("zIndex", 2);
     });
 
     $window.find(".close-explorer").on("click", function () {
