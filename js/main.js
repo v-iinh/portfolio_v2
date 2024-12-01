@@ -53,6 +53,7 @@ function handleWindow($trigger, $window) {
     });
 }
 
-handleWindow($(".trash"), $(".trash-explorer"));
 handleWindow($(".about"), $(".about-explorer"));
-handleWindow($(".work"), $(".work-explorer"));
+handleWindow($(".projects"), $(".projects-explorer"));
+handleWindow($(".contact"), $(".contact-explorer"));
+handleWindow($(".trash"), $(".trash-explorer"));

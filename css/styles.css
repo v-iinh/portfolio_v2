@@ -426,3 +426,13 @@ body, html {
 	border: 1px solid #141414;
 	border-top: 0;
 }
+.window-body section {
+	color: #f1f1f1; 
+	display: flex; 
+	justify-content: center; 
+	width: 100%;
+	padding: 10px;
+	font-size: .7rem;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
