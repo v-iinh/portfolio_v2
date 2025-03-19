@@ -11,10 +11,10 @@ $monitor.on("click", function () {
     $(".fa-hand-o-down").fadeOut(1000);
     $desktop.show();
     $room.addClass("zoom-out");
-    $grid.fadeIn(500);
-    $apps.fadeIn(500);
-    $info.fadeIn(500);
-    $noise.fadeIn(500);
+    $grid.fadeIn(0);
+    $apps.fadeIn(0);
+    $info.fadeIn(0);
+    $noise.fadeIn(0);
     $desktop.addClass("zoom");
 });
 
@@ -32,7 +32,7 @@ $shutdown.on("click", function () {
 function handleWindow($trigger, $window) {
     $trigger.on("click", function () {
         
-        $window.fadeIn(300).css("transform", "scale(1)").focus();
+        $window.fadeIn(0).css("transform", "scale(1)").focus();
         $window.draggable({
             handle: ".window-header",
             containment: "parent",
