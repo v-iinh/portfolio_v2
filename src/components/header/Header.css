@@ -1,0 +1,130 @@
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 3;
+} 
+
+#header .header_wrapper .logo_container {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#header .header_wrapper .menu_btn_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Open Menu */
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #fff;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+.ham4 .top,
+.ham4 .bottom {
+  stroke-dasharray: 40 121;
+}
+
+.ham4.active .top,
+.ham4.active .bottom {
+  stroke-dashoffset: -68px;
+}
+
+/*====== NAV MENU STYLES =====*/
+
+#header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #16161A;
+  z-index: 2;
+  
+  animation-name: slide;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.mobile_menu_container {
+  width: 100%;
+  padding: 20% 5% 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+}
+
+@media (max-width: 993px) and (orientation: landscape) {
+  .mobile_menu_container {
+    overflow: auto;
+  }
+}
+
+#header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#header nav ul li {
+  display: flex;
+  margin: 15px 0;
+  font-size: 1.3rem;
+}
+
+#header nav ul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#header nav .connect_box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}

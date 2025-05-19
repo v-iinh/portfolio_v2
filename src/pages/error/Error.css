@@ -1,0 +1,15 @@
+#error {
+  position: fixed;
+  z-index: 4;
+  inset: 0;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error h1 {
+  margin: 0;
+  font-size: 8rem !important;
+  text-align: center;
+}

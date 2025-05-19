@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'air-regular';
+  src: url('./assets/fonts/AirbnbCereal-Book.ttf') format('truetype');
+}  
+
+@font-face {
+  font-family: 'air-semibold';
+  src: url('./assets/fonts/AirbnbCereal-Medium.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'air-light';
+  src: url('./assets/fonts/AirbnbCereal-Light.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'air-bold';
+  src: url('./assets/fonts/AirbnbCereal-Bold.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'air-extrabold';
+  src: url('./assets/fonts/AirbnbCereal-ExtraBold.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'air-black';
+  src: url('./assets/fonts/AirbnbCereal-Black.ttf') format('truetype');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "air-light";
+  background-color: #151515;
+  color: #fff;
+}
+
+#root, .App {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 47% 1fr;
+}
+
+.container .fixed {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+}
+
+.container .main {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.main::-webkit-scrollbar {
+  width: 7px;
+}
+
+.main::-webkit-scrollbar-track {
+  background: #101011; 
+}
+
+.main::-webkit-scrollbar-thumb {
+  background:#16161a; 
+}
+
+.main::-webkit-scrollbar-thumb:hover {
+  background:#555; 
+}
+
+.container .main .pages_container {
+  padding: 10% 15% 10% 5%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  filter: grayscale();
+  transition: .2s ease-in-out;
+}
+
+img:hover {
+  filter: none;
+}
+
+@media (min-width: 1400px) {
+  .App {
+    max-width: 1600px;
+    margin: auto;
+  }
+}
+
+body {
+  --h1-font: 2.5rem;
+  --h2-font: 2.2rem;
+  --h3-font: 1.3rem;
+  --h4-font: 1.2rem;
+  --project-font: 1.1rem;
+  --semi-font: 1rem;
+  --normal-font: 0.8rem;
+  --small-font: 0.75rem;
+  --xsmall-font: 0.7rem;
+}
+
+@media (min-width: 1440px) {
+  body {
+    --h1-font: 2.7rem;
+    --h2-font: 2.4rem;
+    --h3-font: 1.5rem;
+    --h4-font: 1.4rem;
+    --project-font: 1.3rem;
+    --semi-font: 1.1rem;
+    --normal-font: 0.95rem;
+    --small-font: 0.8rem;
+    --xsmall-font: 0.75rem;
+  }
+}
+
+/*===== RESPONSIVE STYLING =====*/
+
+.mobile_container {
+  display: none;
+}
+
+p {
+  font-size: var(--normal-font);
+}
+
+@media (min-width: 994px) and (max-width: 1200px) {
+  .App .container .fixed .base_container {
+    padding-left: 10%;
+  }
+
+  .App .container .main .pages_container  {
+    padding-right: 10%;
+  }
+
+  h1 {
+    font-size: 34px !important;
+  }
+}
+
+@media (max-width: 993px) {
+  .App {
+    overflow: auto;
+  }
+
+  .App .container {
+    display: none;
+  }
+
+  .mobile_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  #fullscreen {
+    height: 100%;
+  }
+}
