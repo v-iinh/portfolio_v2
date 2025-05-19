@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
   const [closed, setClosed] = useState(true);
+  const location = useLocation();
 
   const toggleMenu = () => setClosed(!closed);
+
+  const isActive = (path) => location.pathname === path;
 
   return (
     <div id='header'>
       <div className="header_wrapper">
-        <div className="logo_container">
-          Vinh.
-        </div>
+        <div className="logo_container">Vinh.</div>
 
         <div className="menu_btn_wrapper">
           <svg
@@ -40,10 +41,42 @@ function Header() {
         <nav>
           <div className="mobile_menu_container">
             <ul>
-              <li><Link to='/' onClick={toggleMenu}>Home</Link></li>
-              <li><Link to='/work' onClick={toggleMenu}>Work</Link></li>
-              <li><Link to='/resume' onClick={toggleMenu}>Résumé</Link></li>
-              <li><Link to='/contact' onClick={toggleMenu}>Contact</Link></li>
+              <li>
+                <Link 
+                  to='/' 
+                  onClick={toggleMenu}
+                  className={isActive('/') ? 'active_menu' : ''}
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to='/work' 
+                  onClick={toggleMenu}
+                  className={isActive('/work') ? 'active_menu' : ''}
+                >
+                  Work
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to='/resume' 
+                  onClick={toggleMenu}
+                  className={isActive('/resume') ? 'active_menu' : ''}
+                >
+                  Résumé
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to='/contact' 
+                  onClick={toggleMenu}
+                  className={isActive('/contact') ? 'active_menu' : ''}
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>

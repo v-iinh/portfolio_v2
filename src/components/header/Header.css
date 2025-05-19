@@ -96,6 +96,11 @@
   background-color: #151515;
 }
 
+.mobile_menu_container ul li .active_menu {
+  color: #fff !important;
+  font-weight: bold;
+}
+
 @media (max-width: 993px) and (orientation: landscape) {
   .mobile_menu_container {
     overflow: auto;
