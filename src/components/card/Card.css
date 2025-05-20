@@ -1,4 +1,4 @@
-.work .portfolio_showcase {
+.projects .portfolio_showcase {
     -webkit-column-gap: .6rem;
     column-gap: .6rem;
     display: grid;
@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.work .portfolio_showcase .title {
+.projects .portfolio_showcase .title {
     color: #777778;
     font-family: air-semibold;
     font-size: var(--small-font);
@@ -141,7 +141,7 @@ background-color: #1b1b1d;
     height: 4.5rem;
   }
 
-  .work .portfolio_showcase {
+  .projects .portfolio_showcase {
     display: flex;
   }
 }

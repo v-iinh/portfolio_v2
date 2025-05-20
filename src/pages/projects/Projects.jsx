@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Work.css";
+import "./Projects.css";
 import Card from "../../components/card/Card";
 import projectsData from "../../config/projects";
 
-function Work({ activeMenu }) {
+function Projects({ activeMenu }) {
   const [projects] = useState(projectsData);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ function Work({ activeMenu }) {
   }, [activeMenu]);
 
   return (
-    <div className='work'>
+    <div className='projects'>
       <div className='portfolio_showcase'>
         <h3 className="title">All Projects</h3>
         {projects.map((project) => (
@@ -23,4 +23,4 @@ function Work({ activeMenu }) {
   );
 }
 
-export default Work;
+export default Projects;

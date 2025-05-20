@@ -52,20 +52,20 @@ function Header() {
               </li>
               <li>
                 <Link 
-                  to='/work' 
+                  to='/projects' 
                   onClick={toggleMenu}
-                  className={isActive('/work') ? 'active_menu' : ''}
+                  className={isActive('/projects') ? 'active_menu' : ''}
                 >
-                  Work
+                  Projects
                 </Link>
               </li>
               <li>
                 <Link 
-                  to='/resume' 
+                  to='/experience' 
                   onClick={toggleMenu}
-                  className={isActive('/resume') ? 'active_menu' : ''}
+                  className={isActive('/experience') ? 'active_menu' : ''}
                 >
-                  Résumé
+                  Experience
                 </Link>
               </li>
               <li>

@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import './App.css';
 
 import Base from './components/base/Base';
-import Work from './pages/work/Work';
+import Experience from './pages/experience/Experience'
+import Projects from './pages/projects/Projects';
+import Error from './pages/error/Error';
+
 import Mobile from './components/mobile/Mobile';
 import Header from './components/header/Header';
-import Error from './pages/error/Error';
 
 const AppContent = () => {
   const location = useLocation();
@@ -22,11 +24,15 @@ const AppContent = () => {
     <Routes>
       <Route 
         path='/' 
-        element={isMobile ? <Mobile menu={menu} fullScreen={setFullScreen} /> : <Work menu={menu} activeMenu={activeMenu} />} 
+        element={isMobile ? <Mobile menu={menu} fullScreen={setFullScreen} /> : <Projects menu={menu} activeMenu={activeMenu} />} 
       />
       <Route 
-        path='/work' 
-        element={<Work menu={menu} activeMenu={activeMenu} />} 
+        path='/experience' 
+        element={<Experience menu={menu} activeMenu={activeMenu} />} 
+      />
+      <Route 
+        path='/projects' 
+        element={<Projects menu={menu} activeMenu={activeMenu} />} 
       />
       <Route path='*' element={<Error />} />
     </Routes>
