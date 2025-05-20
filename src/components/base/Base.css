@@ -180,10 +180,6 @@ nav ul li:hover a img {
   height: 80%;
 }
 
-.base_container .go_button_container {
-  display: none !important;
-}
-
 @media (max-width: 993px) {
   .intro_box .profile {
     display: initial;
@@ -194,10 +190,6 @@ nav ul li:hover a img {
     width: 100px;
     height: 100px;
     border-radius: 140% 120% 140% 100%;
-  }
-
-  .base_container .go_button_container {
-    display: flex !important;
   }
 }
 

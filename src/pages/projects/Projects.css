@@ -4,27 +4,14 @@
   width: 100%;
 }
 
-.projects .go_button_container {
-  display: none;
-}
-
 .projects .portfolio_showcase {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.projects .go_button_container {
-  display: none;
-}
-
-
 @media (max-width: 993px) {
   .projects {
     margin: 20px 0px;
-  }
-
-  .projects .go_button_container {
-    display: flex;
   }
 }
