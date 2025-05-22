@@ -1,16 +1,16 @@
-.projects {
+.experience {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.projects .portfolio_showcase {
+.experience .portfolio_showcase {
   flex-wrap: wrap;
   width: 100%;
 }
 
 @media (max-width: 993px) {
-  .projects {
+  .experience {
     margin: 20px 0px;
   }
 }

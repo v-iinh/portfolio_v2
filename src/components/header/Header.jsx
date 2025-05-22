@@ -68,15 +68,6 @@ function Header() {
                   Experience
                 </Link>
               </li>
-              <li>
-                <Link 
-                  to='/contact' 
-                  onClick={toggleMenu}
-                  className={isActive('/contact') ? 'active_menu' : ''}
-                >
-                  Contact
-                </Link>
-              </li>
             </ul>
           </div>
         </nav>

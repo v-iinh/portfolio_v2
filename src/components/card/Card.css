@@ -7,7 +7,13 @@
     width: 100%;
 }
 
-.projects .portfolio_showcase .title {
+.experience .portfolio_showcase {
+    display: flex;
+    row-gap: .6rem;
+    width: 100%;
+}
+
+.projects .portfolio_showcase .title, .experience .portfolio_showcase .title {
     color: #777778;
     font-family: air-semibold;
     font-size: var(--small-font);
@@ -141,7 +147,7 @@ background-color: #1b1b1d;
     height: 4.5rem;
   }
 
-  .projects .portfolio_showcase {
+  .projects .portfolio_showcase, .experience .portfolio_showcase {
     display: flex;
   }
 }
