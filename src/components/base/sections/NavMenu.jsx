@@ -22,14 +22,6 @@ function NavMenu({ menu }) {
             </Link>
           </small>
         </li>
-        <li className={menu[2]}>
-          <small>
-            02
-            <Link to='/contact'>
-              <img src={navLine} alt='menu bullet' /> CONTACT
-            </Link>
-          </small>
-        </li>
       </ul>
     </nav>
   );

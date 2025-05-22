@@ -5,10 +5,20 @@
 }
 
 .experience .portfolio_showcase {
+  display: flex;
   flex-wrap: wrap;
+  row-gap: .6rem;
   width: 100%;
 }
 
+.experience > .portfolio_showcase > .box_container > .box .project_links {
+  display: none;
+}
+
+.experience > .portfolio_showcase > .box_container > .box .project_details p {
+  height: auto !important;
+  margin-bottom: 0px;
+}
 @media (max-width: 993px) {
   .experience {
     margin: 20px 0px;

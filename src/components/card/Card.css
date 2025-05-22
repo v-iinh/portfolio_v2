@@ -1,19 +1,4 @@
-.projects .portfolio_showcase {
-    -webkit-column-gap: .6rem;
-    column-gap: .6rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: .6rem;
-    width: 100%;
-}
-
-.experience .portfolio_showcase {
-    display: flex;
-    row-gap: .6rem;
-    width: 100%;
-}
-
-.projects .portfolio_showcase .title, .experience .portfolio_showcase .title {
+.portfolio_showcase .title {
     color: #777778;
     font-family: air-semibold;
     font-size: var(--small-font);
@@ -40,50 +25,6 @@ background-color: #1b1b1d;
   cursor: default;
 }
 
-.box .project_details h3 {
-  margin: 0;
-  font-size: var(--h3-font);
-}
-
-.box .project_details p {
-  font-size: var(--small-font);
-  line-height: 2;
-  letter-spacing: 0.03rem;
-  color: #777778;
-  height: 5rem;
-  font-family: "air-light";
-  font-weight: 600;
-}
-
-.box .project_details small {
-  margin-bottom: 13px;
-  font-size: var(--small-font);
-  font-size: 0.65rem;
-  letter-spacing: 1.5px;
-  font-family: "air-semibold";
-  color: #bebebe;
-  text-transform: uppercase;
-}
-
-.box .project_links a {
-  font-size: var(--small-font);
-  line-height: 21px;
-  color: inherit;
-  text-decoration: none;
-  margin-right: 0.8rem;
-  color: #bebebe;
-}
-
-.box .project_links a i {
-  margin-right: 2px;
-  color: #777778;
-}
-
-.box .project_links small:hover a,
-.box .project_links small:hover i {
-  color: #ffffff;
-}
-
 @media screen and (min-width: 993px) {
   .box_container_full {
     width: 100%;
@@ -91,14 +32,6 @@ background-color: #1b1b1d;
 
   .box_container_full .box {
     padding: 2.5rem;
-  }
-
-  .box_container_full .box .project_links {
-    margin-top: 0;
-  }
-
-  .box_container_full .box .project_details p {
-    height: auto;
   }
 }
 
@@ -126,11 +59,6 @@ background-color: #1b1b1d;
   transform: scale(1.1);
   z-index: 1;
 }
-
-
-.box .project_links {
-    margin-top: 1.5rem;
-  }
 }
 
 @media (max-width: 993px) {
@@ -141,13 +69,5 @@ background-color: #1b1b1d;
 
   .box_container:last-child{
     margin-bottom: 20px;
-  }
-
-  .box .project_details p {
-    height: 4.5rem;
-  }
-
-  .projects .portfolio_showcase, .experience .portfolio_showcase {
-    display: flex;
   }
 }

@@ -50,10 +50,6 @@
   animation: 5s ease-in-out 0s 1 flash;
 }
 
-.description p span.highlight.two {
-  animation: 5s ease-in-out 0s 1 flashTwo;
-}
-
 .description p a {
   color: #fff;
   text-decoration: none;
@@ -195,52 +191,14 @@ nav ul li:hover a img {
 
 @keyframes flash {
   0% {
-    color: #777778;
+    color: #777777;
   }
 
-  20% {
-    color: #cecece;
+  25% {
+    color: #999999; 
   }
 
-  30% {
+  50% {
     color: #ffffff;
-  }
-
-  40% {
-    color: #b4b4b4;
-  }
-
-  45% {
-    color: #777778;
-  }
-
-  100% {
-    color: #fff;
-  }
-}
-
-@keyframes flashTwo {
-  0% {
-    color: #cecece;
-  }
-
-  20% {
-    color: #fff;
-  }
-
-  30% {
-    color: #777778;
-  }
-
-  40% {
-    color: #cecece;
-  }
-
-  45% {
-    color: #777778;
-  }
-
-  100% {
-    color: #fff;
   }
 }
