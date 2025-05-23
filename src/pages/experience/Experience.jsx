@@ -13,7 +13,7 @@ function Experience({ activeMenu }) {
 
     return (
         <div className='experience'>
-            <div className='portfolio_showcase'>
+            <div className='pages_section'>
                 <h3 className="title">Education</h3>
                 {experience.map((item) => (
                 <Card key={item.id} data={item} />

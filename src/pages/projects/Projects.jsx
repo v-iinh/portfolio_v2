@@ -13,7 +13,7 @@ function Projects({ activeMenu }) {
 
   return (
     <div className='projects'>
-      <div className='portfolio_showcase'>
+      <div className='pages_section'>
         <h3 className="title">All Projects</h3>
         {projects.map((project) => (
           <Card key={project.id} data={project} />
