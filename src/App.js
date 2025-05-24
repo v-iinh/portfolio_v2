@@ -45,13 +45,12 @@ const AppContent = () => {
         {renderRoutes(true)}
         {location.pathname === '/' && (
           <div className='social_buttons'>
-            <a href="" target="_blank" rel="noreferrer"><i className='fab fa-github'></i></a>
-            <a href="" target="_blank" rel="noreferrer"><i className='fab fa-twitter'></i></a>
-            <a href="" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a href="mailto:officiallyvt@gmail.com" target="_blank" rel="noreferrer"><i className='fab fa-google'></i></a>
+            <a href="https://www.linkedin.com/in/viinh/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a href="https://github.com/v-iinh" target="_blank" rel="noreferrer"><i className='fab fa-github'></i></a>
           </div>
         )}
       </div>
-
       <div className='container'>
         <aside className='fixed'>
           <Base menu={menu} />

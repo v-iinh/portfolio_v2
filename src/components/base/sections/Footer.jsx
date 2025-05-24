@@ -7,20 +7,16 @@ function Footer() {
     <div className='footer'>
       <img src={logo} alt='site logo' />
       <div className='social'>
-        <a
-          href='https://github.com/kadetXx'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <i className='fab fa-github'></i> Github
+        <a href='mailto:officiallyvt@gmail.com' target='_blank' rel='noreferrer'>
+          <i className='fab fa-google'></i> Email
           <img src={arrow} alt='pointer' />
         </a>
-        <a
-          href='https://twitter.com/kadetXx'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <i className='fab fa-twitter'></i> Twitter
+        <a href='https://www.linkedin.com/in/viinh/' target='_blank' rel='noreferrer'>
+          <i className='fab fa-linkedin'></i> Linkedin
+          <img src={arrow} alt='pointer' />
+        </a>
+        <a href='https://github.com/v-iinh' target='_blank' rel='noreferrer'>
+          <i className='fab fa-github'></i> Github
           <img src={arrow} alt='pointer' />
         </a>
       </div>

@@ -17,7 +17,6 @@ function Experience({ activeMenu }) {
           <Card key={item.id} data={item} />
         ))}
       </div>
-
       <div className="pages_section">
         <h3 className="title">Professional</h3>
         {professional.map((item) => (

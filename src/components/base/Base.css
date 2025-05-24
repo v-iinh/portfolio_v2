@@ -170,6 +170,11 @@ nav ul li:hover a img {
   color: grey;
 }
 
+.footer .social a:hover i {
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+
 .footer .social a img {
   width: 40%;
   margin-left: 2px;

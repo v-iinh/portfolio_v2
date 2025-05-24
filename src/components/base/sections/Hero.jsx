@@ -16,7 +16,7 @@ function Hero() {
       <div className='description'>
         <p>
           <span>
-            I'm a <span className='highlight'>software engineer</span> focused on solving <span className='highlight'>problems</span> using <span className='highlight'>frontend technology</span>. I am interested in <span className='highlight'>user experience</span>, accessibility, <span className='highlight'>design engineering</span>, gaming, <span className='highlight'>web3</span>, <span className='highlight'>web animations</span>, and <span className='highlight'>golang</span>.
+            I'm a <span className='highlight'>software engineer</span> from <span className='highlight'>Boston</span> with <span className='highlight'>3 years of experience</span>. I specialize in <span className='highlight'>web development</span>, with a focus on <span className='highlight'>user experience</span> and <span className='highlight'>design</span>. I am currently a <span className='highlight'>student at Boston University</span>, studying <span className='highlight'>Computer Engineering</span>, and am <span className='highlight'>open to work</span>.
           </span>
         </p>
       </div>
