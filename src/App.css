@@ -68,11 +68,11 @@ body {
 }
 
 .main::-webkit-scrollbar-thumb {
-  background:#16161a; 
+  background: #16161a; 
 }
 
 .main::-webkit-scrollbar-thumb:hover {
-  background:#555; 
+  background: #3a3a3a; 
 }
 
 .container .main .pages_container {

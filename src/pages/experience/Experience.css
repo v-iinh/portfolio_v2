@@ -11,6 +11,10 @@
   width: 100%;
 }
 
+.experience > .pages_section > .box_container > .box .box_details p {
+  height: auto !important;
+}
+
 @media (max-width: 993px) {
   .experience {
     margin: 20px 0px;

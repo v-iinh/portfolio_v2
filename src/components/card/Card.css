@@ -1,19 +1,23 @@
+.pages_section:first-of-type .title {
+  margin: 0 0 1rem 0;
+}
+
 .pages_section .title {
-    color: #777778;
-    font-family: air-semibold;
-    font-size: var(--small-font);
-    grid-column-end: 3;
-    grid-column-start: 1;
-    margin: 0 0 1rem 0;
-    width: 100%;
+  color: #777778;
+  font-family: air-semibold;
+  font-size: var(--small-font);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+  margin: 1.6rem 0 1rem 0;
 }
 
 .box_container {
-background-color: #1b1b1d;
-    margin: 0;
-    position: relative;
-    transition: all .2s;
-    width: 100%;
+  background-color: #1b1b1d;
+  margin: 0;
+  position: relative;
+  transition: all 0.2s;
+  width: 100%;
 }
 
 .box {
@@ -25,7 +29,32 @@ background-color: #1b1b1d;
   cursor: default;
 }
 
-@media screen and (min-width: 993px) {
+.box .box_details h3 {
+  margin: 0;
+  font-size: var(--h3-font);
+}
+
+.box .box_details p {
+  font-size: var(--small-font);
+  line-height: 2;
+  letter-spacing: 0.03rem;
+  color: #777778;
+  height: 5rem;
+  font-family: "air-light";
+  font-weight: 600;
+  margin: 1rem 0 0 0;
+}
+
+.box .box_details small {
+  margin-bottom: 13px;
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  font-family: "air-semibold";
+  color: #bebebe;
+  text-transform: uppercase;
+}
+
+@media (min-width: 993px) {
   .box_container_full {
     width: 100%;
   }
@@ -33,9 +62,11 @@ background-color: #1b1b1d;
   .box_container_full .box {
     padding: 2.5rem;
   }
-}
 
-@media (min-width: 993px) {
+  .box_container_full .box .box_details p {
+    height: auto;
+  }
+
   .box_container_pad {
     transform: translateY(1.5rem);
   }
@@ -50,24 +81,38 @@ background-color: #1b1b1d;
   }
 
   .pages_section:hover .box_container {
-  opacity: 0.5;
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
 
-.pages_section:hover .box_container:hover {
-  opacity: 1;
-  transform: scale(1.1);
-  z-index: 1;
-}
+  .pages_section:hover .box_container:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 1;
+  }
 }
 
 @media (max-width: 993px) {
+  .pages_section .title {
+    color: #777778;
+    font-family: air-semibold;
+    font-size: var(--small-font);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    margin: .6rem 0 1rem 0;
+  }
+
   .box_container {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  .box_container:last-child{
+  .box_container:last-child {
     margin-bottom: 20px;
+  }
+
+  .box .box_details p {
+    height: 4.5rem;
   }
 }
