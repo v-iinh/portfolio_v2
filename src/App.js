@@ -5,6 +5,7 @@ import './App.css';
 import Base from './components/base/Base';
 import Experience from './pages/experience/Experience'
 import Projects from './pages/projects/Projects';
+import Details from './pages/details/Details'
 import Error from './pages/error/Error';
 
 import Mobile from './components/mobile/Mobile';
@@ -34,7 +35,14 @@ const AppContent = () => {
         path='/projects' 
         element={<Projects menu={menu} activeMenu={activeMenu} />} 
       />
-      <Route path='*' element={<Error />} />
+      <Route 
+        path='/details/:titleSlug'
+        element={<Details />} 
+      />
+      <Route 
+        path='*'
+        element={<Error />}
+      />
     </Routes>
   );
 

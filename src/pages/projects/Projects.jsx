@@ -13,8 +13,8 @@ function Projects({ activeMenu }) {
     <div className='projects'>
       <div className='pages_section'>
         <h3 className="title">Featured</h3>
-        {projects.map((project) => (
-          <Card key={project.id} data={project} />
+        {projects.map((item) => (
+          <Card key={item.id} data={item} />
         ))}
       </div>
     </div>
