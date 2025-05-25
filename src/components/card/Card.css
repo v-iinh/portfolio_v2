@@ -26,7 +26,6 @@
   padding: 2.5rem;
   flex-grow: 1;
   justify-content: space-between;
-  cursor: default;
   cursor: pointer;
 }
 

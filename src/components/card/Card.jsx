@@ -7,7 +7,7 @@ function Card({ data }) {
   return (
     <div className='box_container'>
       <div className='box'>
-        <div className='box_details'>
+        <div className='box_content'>
           <h3>{title}</h3>
           <small>{subtext}</small>
           <p>{description}</p>
