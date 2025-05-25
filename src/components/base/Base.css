@@ -47,7 +47,7 @@
 
 .description p span.highlight {
   color: #fff;
-  animation: 5s ease-in-out 0s 1 flash;
+  animation: 2.5s ease-in-out 0s 1 flash;
 }
 
 .description p a {

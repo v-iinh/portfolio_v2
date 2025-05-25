@@ -27,14 +27,15 @@
   flex-grow: 1;
   justify-content: space-between;
   cursor: default;
+  cursor: pointer;
 }
 
-.box .box_details h3 {
+.box .box_content h3 {
   margin: 0;
   font-size: var(--h3-font);
 }
 
-.box .box_details p {
+.box .box_content p {
   font-size: var(--small-font);
   line-height: 2;
   letter-spacing: 0.03rem;
@@ -45,7 +46,7 @@
   margin: 1rem 0 0 0;
 }
 
-.box .box_details small {
+.box .box_content small {
   margin-bottom: 13px;
   font-size: 0.65rem;
   letter-spacing: 1.5px;
@@ -63,7 +64,7 @@
     padding: 2.5rem;
   }
 
-  .box_container_full .box .box_details p {
+  .box_container_full .box .box_content p {
     height: auto;
   }
 
@@ -112,7 +113,7 @@
     margin-bottom: 20px;
   }
 
-  .box .box_details p {
+  .box .box_content p {
     height: 4.5rem;
   }
 }
