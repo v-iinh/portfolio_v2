@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../../assets/img/profile.jpg';
-import arrow from '../../../assets/svgs/arrow.svg';
 
 function Footer() {
   return (
