@@ -1,15 +1,12 @@
-import React, { Component } from 'react'
-import './Error.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './Error.css';
 
-export class Error extends Component {
-  render() {
-    return (
-      <div id='error'>
-        <h1>404</h1>
-      </div>
-    )
-  }
-}
+const Error = () => {
+  return (
+    <div className="error">
+      <h1>404</h1>
+    </div>
+  );
+};
 
-export default Error
+export default Error;

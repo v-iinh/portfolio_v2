@@ -1,15 +1,15 @@
-#error {
+.error {
   position: fixed;
-  z-index: 4;
   inset: 0;
+  z-index: 4;
   background-color: #151515;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#error h1 {
+.error h1 {
   margin: 0;
-  font-size: 8rem !important;
+  font-size: 8rem;
   text-align: center;
 }
