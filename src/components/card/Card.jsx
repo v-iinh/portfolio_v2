@@ -8,9 +8,9 @@ function Card({ data }) {
     <div className='box_container'>
       <div className='box'>
         <div className='box_content'>
-          <h3>{title}</h3>
-          <small>{subtext}</small>
-          <p>{description}</p>
+          <h3 className='box_truncate'>{title}</h3>
+          <small className='box_truncate'>{subtext}</small>
+          <p className='box_truncate'>{description}</p>
         </div>
       </div>
     </div>
