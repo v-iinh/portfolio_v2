@@ -155,24 +155,24 @@ img:hover {
   filter: none;
 }
 
-::selection {
-  background: white;
-  color: black;
-  text-shadow: none;
-}
-
-::-webkit-scrollbar {
+.main::-webkit-scrollbar {
   width: 7px;
 }
 
-::-webkit-scrollbar-track {
+.main::-webkit-scrollbar-track {
   background: #101011;
 }
 
-::-webkit-scrollbar-thumb {
+.main::-webkit-scrollbar-thumb {
   background: #16161a;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.main::-webkit-scrollbar-thumb:hover {
   background: #3a3a3a;
+}
+
+::selection {
+  background: #fff;
+  color: #151515;
+  text-shadow: none;
 }
