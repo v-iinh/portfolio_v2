@@ -103,7 +103,7 @@ nav ul li a img {
   pointer-events: none;
   transition: width 0.2s linear;
   opacity: 0.5;
-  height: 5px;
+  height: 1rem;
 }
 
 nav ul li.active_menu {
