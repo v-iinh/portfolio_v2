@@ -1,9 +1,13 @@
 import React from 'react';
 import './Card.css';
 
-function Card({ data }) {
+export function Slugify(title) {
+  return title.toLowerCase().replace(/\s+/g, '-');
+}
+
+export function Card({ data }) {
   const { title, subtext, description } = data;
-  
+
   return (
     <div className='box_container'>
       <div className='box'>
@@ -16,5 +20,3 @@ function Card({ data }) {
     </div>
   );
 }
-
-export default Card;

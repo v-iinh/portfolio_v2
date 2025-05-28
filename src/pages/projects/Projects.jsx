@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Projects.css";
-import Card from "../../components/card/Card";
+import {Slugify, Card} from "../../components/card/Card";
 import { projects } from "../../config/projects";
 
 function Projects({ activeMenu }) {
@@ -14,7 +14,7 @@ function Projects({ activeMenu }) {
       <div className='pages_section'>
         <h3 className="title">Featured</h3>
         {projects.map((item) => (
-          <Card key={item.id} data={item} />
+          <Card key={Slugify(item.title)} data={item} />
         ))}
       </div>
     </div>
