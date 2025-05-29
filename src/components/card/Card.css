@@ -121,13 +121,17 @@
     margin: .6rem 0 1rem 0;
   }
 
+  .pages_section:not(:first-of-type) .title {
+    margin: 1.6rem 0 1rem 0;
+  }
+
   .box_container {
     width: 100%;
     margin-bottom: 10px;
   }
 
   .box_container:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .box .box_content p {

@@ -20,6 +20,7 @@
 
 #mobile .base_container .hero {
   justify-content: center;
+  padding: 10% 0;
 }
 
 #mobile .base_container .hero .intro_box {
