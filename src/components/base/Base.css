@@ -89,6 +89,12 @@ nav ul li small {
   font-size: var(--small-font);
 }
 
+nav ul li small span {
+  display: inline-block;
+  width: 2ch;
+  text-align: center;
+}
+
 nav ul li small a {
   display: flex;
   align-items: center;

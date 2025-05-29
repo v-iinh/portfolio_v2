@@ -8,7 +8,7 @@ function NavMenu({ menu }) {
       <ul>
         <li className={menu[0]}>
           <small>
-            00
+            <span>00</span>
             <Link to='/'>
               <img src={navLine} alt='menu bullet' /> PROJECTS
             </Link>
@@ -16,7 +16,7 @@ function NavMenu({ menu }) {
         </li>
         <li className={menu[1]}>
           <small>
-            01
+            <span>01</span>
             <Link to='/experience'>
               <img src={navLine} alt='menu bullet' /> EXPERIENCE
             </Link>
