@@ -8,7 +8,7 @@
   margin: 1.6rem 0 1rem 0;
 }
 
-.box_container {
+.card_container {
   background-color: #1b1b1d;
   margin: 0;
   position: relative;
@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-.box {
+.card {
   display: flex;
   flex-direction: column;
   padding: 2.5rem;
@@ -30,7 +30,7 @@
   overflow: hidden;
 }
 
-.box_truncate {
+.card_truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -39,19 +39,19 @@
   line-clamp: 2;
 }
 
-.box .box_content {
+.card .card_content {
   width: 100%;
   overflow: hidden;
 }
 
-.box .box_content h3 {
+.card .card_content h3 {
   margin: 0;
   font-size: var(--h3-font);
   white-space: nowrap;
   display: block;
 }
 
-.box .box_content small {
+.card .card_content small {
   margin-bottom: 13px;
   font-size: 0.65rem;
   letter-spacing: 1.5px;
@@ -62,7 +62,7 @@
   display: block;
 }
 
-.box .box_content p {
+.card .card_content p {
   font-size: var(--small-font);
   line-height: 2;
   letter-spacing: 0.03rem;
@@ -77,33 +77,33 @@
     margin: 0 0 1rem 0;
   }
 
-  .box_container_full {
+  .card_container_full {
     width: 100%;
   }
 
-  .box_container_full .box {
+  .card_container_full .card {
     padding: 2.5rem;
   }
 
-  .box_container_pad {
+  .card_container_pad {
     transform: translateY(1.5rem);
   }
 
-  .box_container:hover {
+  .card_container:hover {
     transform: scale(1.1);
     opacity: 1 !important;
   }
 
-  .box_container_pad:hover {
+  .card_container_pad:hover {
     transform: translateY(1rem) scale(1.1);
   }
 
-  .pages_section:hover .box_container {
+  .pages_section:hover .card_container {
     opacity: 0.5;
     transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   }
 
-  .pages_section:hover .box_container:hover {
+  .pages_section:hover .card_container:hover {
     opacity: 1;
     transform: scale(1.1);
     z-index: 1;
@@ -124,16 +124,16 @@
     margin: 1.6rem 0 1rem 0;
   }
 
-  .box_container {
+  .card_container {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  .box_container:last-child {
+  .card_container:last-child {
     margin-bottom: 0px;
   }
 
-  .box .box_content p {
+  .card .card_content p {
     height: auto;
   }
 }

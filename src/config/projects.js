@@ -2,7 +2,28 @@ export const projects = [
   {
     title: "Socratic",
     subtext: "Groq + Firebase",
-    description: "AI tools and tutor messaging system to help students excel."
+    description: "AI tools and tutor messaging system to help students excel.",
+    details: {
+      overview: "Socratic is an educational platform that leverages AI models running on Groq hardware and Firebase services to provide real-time tutoring assistance. It helps students get instant answers, explanations, and messaging with human tutors when needed.",
+      key_features: [
+        "AI-powered Q&A assistant for real-time homework help.",
+        "Tutor messaging system with history tracking.",
+        "Smart suggestions and follow-up questions to deepen understanding.",
+        "User authentication and progress tracking using Firebase."
+      ],
+      tech_stack: [
+        "Groq (LLM inference)",
+        "Firebase (Auth, Firestore, Hosting)",
+        "React (Frontend UI)",
+        "Tailwind CSS (Styling)",
+        "Vite (Build Tool)"
+      ],
+      preview: "https://example.com/socratic-preview",
+      links: {
+        live: "https://socratic.example.com",
+        github: "https://github.com/yourname/socratic"
+      }
+    }
   },
   {
     title: "Pirate Shore",

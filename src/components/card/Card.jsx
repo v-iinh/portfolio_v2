@@ -15,12 +15,12 @@ export function Card({ data, basePath }) {
   };
 
   return (
-    <div className='box_container' onClick={handleClick}>
-      <div className='box'>
-        <div className='box_content'>
-          <h3 className='box_truncate'>{title}</h3>
-          <small className='box_truncate'>{subtext}</small>
-          <p className='box_truncate'>{description}</p>
+    <div className='card_container' onClick={handleClick}>
+      <div className='card'>
+        <div className='card_content'>
+          <h3 className='card_truncate'>{title}</h3>
+          <small className='card_truncate'>{subtext}</small>
+          <p className='card_truncate'>{description}</p>
         </div>
       </div>
     </div>
