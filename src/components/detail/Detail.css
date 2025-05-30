@@ -68,4 +68,9 @@
   .pages_section .detail:first-of-type {
     padding: 0 0 2.5rem 0;
   }
+
+  .pages_section .detail:last-child {
+    border: none;
+    padding-bottom: 0;
+  }
 }

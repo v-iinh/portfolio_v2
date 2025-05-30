@@ -98,7 +98,7 @@ body {
 }
 
 .container .main .pages_container {
-  padding: 10% 15% 10% 5%;
+  padding: 4rem 15% 4rem 5%;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
