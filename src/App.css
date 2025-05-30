@@ -70,7 +70,8 @@ body {
 }
 
 .App {
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 @media (min-width: 1400px) {

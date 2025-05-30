@@ -10,7 +10,7 @@
 .detail {
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 0;
+  padding: 5% 0;
   flex-grow: 1;
   justify-content: space-between;
   width: 100%;
@@ -64,13 +64,13 @@
   color: inherit;
 }
 
+.pages_section .detail:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
 @media (min-width: 993px) {
   .pages_section .detail:first-of-type {
     padding: 0 0 2.5rem 0;
-  }
-
-  .pages_section .detail:last-child {
-    border: none;
-    padding-bottom: 0;
   }
 }
