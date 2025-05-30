@@ -5,6 +5,8 @@ import './App.css';
 import Base from './components/base/Base';
 import Experience from './pages/experience/Experience'
 import Projects from './pages/projects/Projects';
+
+import Expanded from './pages/expanded/Expanded';
 import Error from './pages/error/Error';
 
 import Mobile from './components/mobile/Mobile';
@@ -22,22 +24,12 @@ const AppContent = () => {
 
   const renderRoutes = (isMobile = false) => (
     <Routes>
-      <Route 
-        path='/' 
-        element={isMobile ? <Mobile menu={menu} fullScreen={setFullScreen} /> : <Projects menu={menu} activeMenu={activeMenu} />} 
-      />
-      <Route 
-        path='/experience' 
-        element={<Experience menu={menu} activeMenu={activeMenu} />} 
-      />
-      <Route 
-        path='/projects' 
-        element={<Projects menu={menu} activeMenu={activeMenu} />} 
-      />
-      <Route 
-        path='*'
-        element={<Error />}
-      />
+      <Route path='/' element={isMobile ? <Mobile menu={menu} fullScreen={setFullScreen} /> : <Projects menu={menu} activeMenu={activeMenu} />}/>
+      <Route path='/experience' element={<Experience menu={menu} activeMenu={activeMenu} />}/>
+      <Route path='/projects' element={<Projects menu={menu} activeMenu={activeMenu} />}/>
+      <Route path='/projects/:titleSlug' element={<Expanded menu={menu} activeMenu={activeMenu} />} />
+      <Route path='/experience/:titleSlug' element={<Expanded menu={menu} activeMenu={activeMenu} />} />
+      <Route path='*' element={<Error />}/>
     </Routes>
   );
 

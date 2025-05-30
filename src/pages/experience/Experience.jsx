@@ -14,13 +14,13 @@ function Experience({ activeMenu }) {
       <div className="pages_section">
         <h3 className="title">Academic</h3>
         {academic.map((item) => (
-          <Card key={Slugify(item.title)} data={item} />
+          <Card key={Slugify(item.title)} data={item} basePath="experience" />
         ))}
       </div>
       <div className="pages_section">
         <h3 className="title">Professional</h3>
         {professional.map((item) => (
-          <Card key={Slugify(item.title)} data={item} />
+          <Card key={Slugify(item.title)} data={item} basePath="experience" />
         ))}
       </div>
     </div>
