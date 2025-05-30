@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 function MobileMenu({ toggleMenu }) {
   const location = useLocation();
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path) => location.pathname === path || location.pathname.startsWith(`${path}/`);
 
   return (
     <nav>

@@ -1,43 +1,25 @@
-import React, { useState, useCallback } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import './App.css';
 
 import Base from './components/base/Base';
-import Experience from './pages/experience/Experience'
-import Projects from './pages/projects/Projects';
-
-import Expanded from './pages/expanded/Expanded';
-import Error from './pages/error/Error';
-
-import Mobile from './components/mobile/Mobile';
 import Header from './components/header/Header';
+import { useMenuState } from './hooks/useMenuState';
+import { useAppRoutes } from './hooks/useAppRoutes';
 
 const AppContent = () => {
   const location = useLocation();
-
-  const [menu, setMenu] = useState(['active_menu', '', '']);
+  const { menu, activeMenu } = useMenuState();
   const [fullScreen, setFullScreen] = useState(false);
 
-  const activeMenu = useCallback((id) => {
-    setMenu((prev) => prev.map((_, idx) => (idx === id ? 'active_menu' : '')));
-  }, []);
-
-  const renderRoutes = (isMobile = false) => (
-    <Routes>
-      <Route path='/' element={isMobile ? <Mobile menu={menu} fullScreen={setFullScreen} /> : <Projects menu={menu} activeMenu={activeMenu} />}/>
-      <Route path='/experience' element={<Experience menu={menu} activeMenu={activeMenu} />}/>
-      <Route path='/projects' element={<Projects menu={menu} activeMenu={activeMenu} />}/>
-      <Route path='/projects/:titleSlug' element={<Expanded menu={menu} activeMenu={activeMenu} />} />
-      <Route path='/experience/:titleSlug' element={<Expanded menu={menu} activeMenu={activeMenu} />} />
-      <Route path='*' element={<Error />}/>
-    </Routes>
-  );
+  const mobileRoutes = useAppRoutes({ isMobile: true, menu, activeMenu, setFullScreen });
+  const desktopRoutes = useAppRoutes({ isMobile: false, menu, activeMenu, setFullScreen });
 
   return (
     <div className='App'>
       <div className={`mobile_container${fullScreen ? ' fullscreen' : ''}`}>
         <Header />
-        {renderRoutes(true)}
+        {mobileRoutes}
         {location.pathname === '/' && (
           <div className='social_buttons'>
             <a href="mailto:officiallyvt@gmail.com" target="_blank" rel="noreferrer"><i className='fab fa-google'></i></a>
@@ -46,13 +28,14 @@ const AppContent = () => {
           </div>
         )}
       </div>
+
       <div className='container'>
         <aside className='fixed'>
           <Base menu={menu} />
         </aside>
         <main className='main'>
           <div className='pages_container'>
-            {renderRoutes()}
+            {desktopRoutes}
           </div>
         </main>
       </div>
