@@ -1,4 +1,4 @@
-.pages_section .heading {
+.pages_section .title {
   color: #777778;
   font-family: air-semibold;
   font-size: var(--small-font);
@@ -73,7 +73,7 @@
 }
 
 @media (min-width: 993px) {
-  .pages_section:first-of-type .heading {
+  .pages_section:first-of-type .title {
     margin: 0 0 1rem 0;
   }
 
@@ -111,7 +111,7 @@
 }
 
 @media (max-width: 993px) {
-  .pages_section .heading {
+  .pages_section .title {
     color: #777778;
     font-family: air-semibold;
     font-size: var(--small-font);
@@ -120,7 +120,7 @@
     width: 100%;
   }
 
-  .pages_section:not(:first-of-type) .heading {
+  .pages_section:not(:first-of-type) .title {
     margin: 1.6rem 0 1rem 0;
   }
 
