@@ -11,7 +11,7 @@ const routeConfigs = [
 ];
 
 export function useSluggedItem() {
-  const { titleSlug } = useParams();
+  const { headingSlug } = useParams();
   const { pathname } = useLocation();
 
   const segments = pathname.split("/").filter(Boolean);
@@ -19,7 +19,7 @@ export function useSluggedItem() {
   
   for (const { path, category, data } of routeConfigs) {
     if (path === routeKey || path === segments[0]) {
-      const item = data.find((entry) => Slugify(entry.title) === titleSlug) || null;
+      const item = data.find((entry) => Slugify(entry.heading) === headingSlug) || null;
       return { item, category };
     }
   }

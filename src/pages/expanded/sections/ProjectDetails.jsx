@@ -2,11 +2,11 @@ import React from "react";
 import { Detail } from "../../../components/detail/Detail";
 
 export function ProjectDetails({ details }) {
-  const { overview, key_features, tech_stack, preview, links } = details;
+  const { description, key_features, tech_stack, preview, links } = details;
 
   return (
     <div className="detail_container">
-      <Detail heading="Overview" subheading="What it's about" content={overview} />
+      <Detail heading="Overview" subheading="What it's about" content={description} />
       <Detail heading="Key Features" subheading="What makes it stand out" content={key_features} />
       <Detail heading="Tech Stack" subheading="Tools & technologies used" content={tech_stack} />
       <Detail
