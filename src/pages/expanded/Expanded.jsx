@@ -7,21 +7,19 @@ import { ProjectDetails } from "./sections/ProjectDetails";
 import { AcademicDetails } from "./sections/AcademicDetails";
 import { ProfessionalDetails } from "./sections/ProfessionalDetails";
 
+const detailComponentMap = {
+  projects: ProjectDetails,
+  academic: AcademicDetails,
+  professional: ProfessionalDetails,
+};
+
 const Expanded = () => {
   const { item, category } = useSluggedItem();
+  const DetailComponent = detailComponentMap[category];
 
-  if (!item || !item.details) return <Error />;
-
-  const DetailComponent = (() => {
-    switch (category) {
-      case "academic":
-        return AcademicDetails;
-      case "professional":
-        return ProfessionalDetails;
-      default:
-        return ProjectDetails;
-    }
-  })();
+  if (!item || !item.details || !DetailComponent) {
+    return <Error />;
+  }
 
   return (
     <div className="details">

@@ -1,38 +1,28 @@
 import { useParams, useLocation } from "react-router-dom";
 import { projects } from "../config/projects";
-import { academic, professional } from "../config/experience";
+import { academic } from "../config/academic";
+import { professional } from "../config/professional";
 import { Slugify } from "../components/card/Card";
 
-/**
- * Gets item and category based on URL slug and path.
- * Supports:
- *   - /projects/:slug
- *   - /experience/academic/:slug
- *   - /experience/professional/:slug
- * @returns {{ item: Object|null, category: 'projects' | 'academic' | 'professional' | null }}
- */
+const routeConfigs = [
+  { path: "projects", category: "projects", data: projects },
+  { path: "experience/academic", category: "academic", data: academic },
+  { path: "experience/professional", category: "professional", data: professional },
+];
+
 export function useSluggedItem() {
   const { titleSlug } = useParams();
-  const location = useLocation();
+  const { pathname } = useLocation();
 
-  const pathSegments = location.pathname.split("/").filter(Boolean); // remove empty segments
-  const [basePath, subCategory] = pathSegments;
-
-  let item = null;
-  let category = null;
-
-  if (basePath === "projects") {
-    item = projects.find((entry) => Slugify(entry.title) === titleSlug) || null;
-    category = "projects";
-  } else if (basePath === "experience") {
-    if (subCategory === "academic") {
-      item = academic.find((entry) => Slugify(entry.title) === titleSlug) || null;
-      category = "academic";
-    } else if (subCategory === "professional") {
-      item = professional.find((entry) => Slugify(entry.title) === titleSlug) || null;
-      category = "professional";
+  const segments = pathname.split("/").filter(Boolean);
+  const routeKey = segments.slice(0, 2).join("/");
+  
+  for (const { path, category, data } of routeConfigs) {
+    if (path === routeKey || path === segments[0]) {
+      const item = data.find((entry) => Slugify(entry.title) === titleSlug) || null;
+      return { item, category };
     }
   }
-
-  return { item, category };
+  
+  return { item: null, category: null };
 }

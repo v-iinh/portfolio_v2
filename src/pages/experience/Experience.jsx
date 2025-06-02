@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Experience.css";
 import {Slugify, Card} from "../../components/card/Card";
-import { academic, professional } from "../../config/experience";
+import { academic } from "../../config/academic";
+import { professional } from "../../config/professional";
 
 function Experience({ activeMenu }) {
   useEffect(() => {
