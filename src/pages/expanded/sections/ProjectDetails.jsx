@@ -1,19 +1,17 @@
 import React from "react";
 import { Detail } from "../../../components/detail/Detail";
 
-export function ProjectDetails({ details }) {
-  const { description, key_features, tech_stack, preview, links } = details;
-
+export function ProjectDetails({ info }) {
   return (
     <div className="detail_container">
-      <Detail heading="Overview" subheading="What it's about" content={description} />
-      <Detail heading="Key Features" subheading="What makes it stand out" content={key_features} />
-      <Detail heading="Tech Stack" subheading="Tools & technologies used" content={tech_stack} />
+      <Detail heading={info.name} subheading="General Overview" content={info.details.description} />
+      <Detail heading="Key Features" subheading="What makes it stand out" content={info.details.key_features} />
+      <Detail heading="Tech Stack" subheading="Tools & technologies used" content={info.details.tech_stack} />
       <Detail
         heading="Preview"
         subheading="Visual or live preview"
         content={
-          <a href={preview} target="_blank" rel="noreferrer">
+          <a href={info.details.preview} target="_blank" rel="noreferrer">
             View Project Preview
           </a>
         }
@@ -23,9 +21,9 @@ export function ProjectDetails({ details }) {
         subheading="Live site and source code"
         content={
           <>
-            <a href={links.live} target="_blank" rel="noreferrer">Live Project</a>
+            <a href={info.details.links.live} target="_blank" rel="noreferrer">Live Project</a>
             <br />
-            <a href={links.github} target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href={info.details.links.github} target="_blank" rel="noreferrer">GitHub Repo</a>
           </>
         }
       />

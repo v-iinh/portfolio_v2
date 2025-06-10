@@ -24,7 +24,7 @@ const Expanded = () => {
   return (
     <div className="details">
       <div className="pages_section">
-        <DetailComponent details={item.details} />
+        <DetailComponent info={item} />
       </div>
     </div>
   );

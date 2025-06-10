@@ -19,7 +19,7 @@ export function useSluggedItem() {
   
   for (const { path, category, data } of routeConfigs) {
     if (path === routeKey || path === segments[0]) {
-      const item = data.find((entry) => Slugify(entry.heading) === headingSlug) || null;
+      const item = data.find((entry) => Slugify(entry.name) === headingSlug) || null;
       return { item, category };
     }
   }

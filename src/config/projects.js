@@ -1,6 +1,6 @@
 export const projects = [
   {
-    heading: "Socratic",
+    name: "Socratic",
     subheading: "Groq + Firebase",
     overview: "AI tools and tutor messaging system to help students excel.",
     details: {
@@ -26,67 +26,67 @@ export const projects = [
     }
   },
   {
-    heading: "Pirate Shore",
+    name: "Pirate Shore",
     subheading: "React + Rest API",
     overview: "A streaming service offering free access to films."
   },
   {
-    heading: "Sound Mania",
+    name: "Sound Mania",
     subheading: "Javascript",
     overview: "A rhythm game with different modes, difficulties, and scoring system."
   },
   {
-    heading: "Self Driving Car",
+    name: "Self Driving Car",
     subheading: "Javascript",
     overview: "An interactive and customizable self-driving car simulator."
   },
   {
-    heading: "Historical Timelapse",
+    name: "Historical Timelapse",
     subheading: "Javascript",
     overview: "Timeline of major world empires with GDP and population data."
   },
   {
-    heading: "Chef Up",
+    name: "Chef Up",
     subheading: "Javascript + Tailwind",
     overview: "A recipe finder with search features and the ability to save recipes."
   },
   {
-    heading: "Coin Dash",
+    name: "Coin Dash",
     subheading: "React + CoinGecko",
     overview: "View and search Crypto and NFT data within a sleek app."
   },
   {
-    heading: "The Daily Quill",
+    name: "The Daily Quill",
     subheading: "React + Tailwind",
     overview: "News app providing daily updates and a search system."
   },
   {
-    heading: "Claustrophobia",
+    name: "Claustrophobia",
     subheading: "Three.js",
     overview: "An immersive 3D horror game simulating dark confined spaces."
   },
   {
-    heading: "Stem Garden Defense",
+    name: "Stem Garden Defense",
     subheading: "Javascript",
     overview: "Tower defense game showcased at Wonderland Hackathon."
   },
   {
-    heading: "Editify",
+    name: "Editify",
     subheading: "Javascript",
     overview: "Universal file editor web app allowing online file editing and saving."
   },
   {
-    heading: "AFH Ticket System",
+    name: "AFH Ticket System",
     subheading: "Firebase",
     overview: "Automated ticketing system streamlining management and tracking."
   },
   {
-    heading: "Chrominance",
+    name: "Chrominance",
     subheading: "JQuery + Rest API",
     overview: "Browser extension helping designers identify colors and find matching palettes."
   },
   {
-    heading: "BLS Hack Club",
+    name: "BLS Hack Club",
     subheading: "JQuery",
     overview: "Website to inspire learning and resource usage for coding enthusiasts at BLS."
   }

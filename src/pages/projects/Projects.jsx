@@ -14,7 +14,7 @@ function Projects({ activeMenu }) {
       <div className='pages_section'>
         <h3 className="title">Featured</h3>
         {projects.map((item) => (
-          <Card key={Slugify(item.heading)} data={item} basePath="projects" />
+          <Card key={Slugify(item.name)} data={item} basePath="projects" />
         ))}
       </div>
     </div>

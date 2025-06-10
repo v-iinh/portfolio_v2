@@ -1,14 +1,12 @@
 import React from "react";
 import { Detail } from "../../../components/detail/Detail";
 
-export function ProfessionalDetails({ details }) {
-  const { description, key_features, tech_stack } = details;
-
+export function ProfessionalDetails({ info }) {
   return (
     <div className="detail_container">
-      <Detail heading="Role Summary" subheading="What you worked on" content={description} />
-      <Detail heading="Achievements" subheading="Impact & responsibilities" content={key_features} />
-      <Detail heading="Tech Stack" subheading="Tools & technologies" content={tech_stack} />
+      <Detail heading="Role Summary" subheading="What you worked on" content={info.details.description} />
+      <Detail heading="Achievements" subheading="Impact & responsibilities" content={info.details.key_features} />
+      <Detail heading="Tech Stack" subheading="Tools & technologies" content={info.details.tech_stack} />
     </div>
   );
 }
