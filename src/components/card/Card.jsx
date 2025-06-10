@@ -7,7 +7,7 @@ export function Slugify(name) {
 }
 
 export function Card({ data, basePath }) {
-  const { name, subheading, overview } = data;
+  const { name, subtext, overview } = data;
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -19,7 +19,7 @@ export function Card({ data, basePath }) {
       <div className='card'>
         <div className='card_content'>
           <h3 className='card_truncate'>{name}</h3>
-          <small className='card_truncate'>{subheading}</small>
+          <small className='card_truncate'>{subtext}</small>
           <p className='card_truncate'>{overview}</p>
         </div>
       </div>

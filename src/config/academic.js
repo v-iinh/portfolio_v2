@@ -1,7 +1,7 @@
 export const academic = [
   {
     name: "Boston University",
-    subheading: "B.S in Computer Engineering",
+    subtext: "B.S in Computer Engineering",
     overview: "Currently studying Computer Engineering, focusing on software development and embedded systems.",
     details: {
       description: "Currently studying Computer Engineering, focusing on software development and embedded systems.",
@@ -15,7 +15,7 @@ export const academic = [
   },
   {
     name: "Boston Latin School",
-    subheading: "High School Diploma",
+    subtext: "High School Diploma",
     overview: "Completed rigorous coursework in core subjects and built a strong foundation for leadership."
   }
 ];
