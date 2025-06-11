@@ -149,41 +149,180 @@ export const projects = [
   {
     name: "Coin Dash",
     subtext: "React + CoinGecko",
-    overview: "View and search Crypto and NFT data within a sleek app."
-  },
+    overview: "View and search Crypto and NFT data within a sleek app.",
+    details: {
+      description: "Coin Dash is a modern crypto dashboard that integrates the CoinGecko API to display live cryptocurrency and NFT data. Users can browse market trends, search specific coins or tokens, and explore price, volume, and market cap data.",
+      key_features: [
+        "Live crypto and NFT price data pulled from CoinGecko API.",
+        "Search and filter functionality for specific tokens.",
+        "Responsive dashboard layout with charts and key stats."
+      ],
+      tech_stack: [
+        "React (Frontend)",
+        "CoinGecko API (Live Data)",
+        "Tailwind CSS (Styling)"
+      ],
+      preview: "https://example.com/coin-dash-preview",
+      links: {
+        live: "https://coindash.example.com",
+        github: "https://github.com/yourname/coin-dash"
+      }
+    }
+  },  
   {
     name: "The Daily Quill",
     subtext: "React + Tailwind",
-    overview: "News app providing daily updates and a search system."
-  },
+    overview: "News app providing daily updates and a search system.",
+    details: {
+      description: "The Daily Quill is a responsive news application that curates the latest headlines and allows users to search across a wide range of topics. It delivers a clean reading experience with quick access to stories from various sources.",
+      key_features: [
+        "Daily news feed with auto-refreshing headlines.",
+        "Search functionality by topic or keyword.",
+        "Article previews with links to full content.",
+      ],
+      tech_stack: [
+        "React (Frontend)",
+        "Tailwind CSS (Styling)",
+        "News API (Live Data)",
+      ],
+      preview: "https://example.com/daily-quill-preview",
+      links: {
+        live: "https://dailyquill.example.com",
+        github: "https://github.com/yourname/the-daily-quill"
+      }
+    }
+  },  
   {
     name: "Claustrophobia",
     subtext: "Three.js",
-    overview: "An immersive 3D horror game simulating dark confined spaces."
-  },
+    overview: "An immersive 3D horror game simulating dark confined spaces.",
+    details: {
+      description: "Claustrophobia is a browser-based 3D horror game that simulates the tension of navigating through dark, confined spaces. The game uses movement mechanics to deliver an atmospheric and suspenseful experience.",
+      key_features: [
+        "Immersive 3D environment rendered with Three.js.",
+        "Dynamic lighting and shadow effects.",
+        "Sound-driven environmental interactions.",
+      ],
+      tech_stack: [
+        "Three.js (Rendering)",
+      ],
+      preview: "https://example.com/claustrophobia-preview",
+      links: {
+        live: "https://claustrophobia.example.com",
+        github: "https://github.com/yourname/claustrophobia"
+      }
+    }
+  },  
   {
     name: "Stem Garden Defense",
     subtext: "Javascript",
-    overview: "Tower defense game showcased at Wonderland Hackathon."
-  },
+    overview: "Tower defense game showcased at Wonderland Hackathon.",
+    details: {
+      description: "Stem Garden Defense is a browser-based tower defense game developed for the Wonderland Hackathon. It features a unique garden theme where players strategically place towers to defend against waves of enemies.",
+      key_features: [
+        "Wave-based enemy system with increasing difficulty.",
+        "Resource management for strategic tower placement.",
+        "Smooth animations and interactive UI."
+      ],
+      tech_stack: [
+        "JavaScript (Interactivity)",
+        "HTML5 Canvas (Rendering)",
+        "CSS3 (Styling)"
+      ],
+      preview: "https://example.com/stem-garden-defense-preview",
+      links: {
+        live: "https://stemgarden.example.com",
+        github: "https://github.com/yourname/stem-garden-defense"
+      }
+    }
+  },  
   {
     name: "Editify",
     subtext: "Javascript",
-    overview: "Universal file editor web app allowing online file editing and saving."
-  },
+    overview: "Universal file editor web app allowing online file editing and saving.",
+    details: {
+      description: "Editify is a web-based file editor that supports editing a wide range of text-based formats. It allows users to upload, edit, and download files directly in the browser. It supports syntax highlighting, file previews, and a streamlined editing interface.",
+      key_features: [
+        "Upload and edit various file formats in-browser.",
+        "Download or overwrite edited files locally.",
+        "Lightweight and responsive UI."
+      ],
+      tech_stack: [
+        "JavaScript (Interactivity)"
+      ],
+      preview: "https://example.com/editify-preview",
+      links: {
+        live: "https://editify.example.com",
+        github: "https://github.com/yourname/editify"
+      }
+    }
+  },  
   {
     name: "AFH Ticket System",
     subtext: "Firebase",
-    overview: "Automated ticketing system streamlining management and tracking."
-  },
+    overview: "Automated ticketing system streamlining management and tracking.",
+    details: {
+      description: "AFH Ticket System is an internal support ticketing platform designed to streamline the process of submitting, managing, and resolving tickets. It supports real-time updates, user authentication, and status tracking for efficient management.",
+      key_features: [
+        "Ticket submission form with validation.",
+        "Real-time updates and ticket status tracking.",
+        "User authentication for role-based access.",
+        "Firebase backend for storage and data sync."
+      ],
+      tech_stack: [
+        "Firebase (Authentication, Data Storage)",
+        "JavaScript (Interactivity)"
+      ],
+      preview: "https://example.com/afh-ticket-preview",
+      links: {
+        live: "https://afhticketsystem.example.com",
+        github: "https://github.com/yourname/afh-ticket-system"
+      }
+    }
+  },  
   {
     name: "Chrominance",
     subtext: "JQuery + Rest API",
-    overview: "Browser extension helping designers identify colors and find matching palettes."
-  },
+    overview: "Browser extension helping designers identify colors and find matching palettes.",
+    details: {
+      description: "Chrominance is a lightweight browser extension built with jQuery that helps designers and developers identify colors on any webpage. It offers matching palette suggestions, accessibility contrast checks, and direct export of color themes.",
+      key_features: [
+        "Color picker tool for any element on the page.",
+        "Palette suggestions and harmony guides.",
+        "Contrast ratio checker for accessibility.",
+      ],
+      tech_stack: [
+        "jQuery (DOM interaction)",
+        "CSS3 (Styling)"
+      ],
+      preview: "https://example.com/chrominance-preview",
+      links: {
+        live: "https://chrominance.example.com",
+        github: "https://github.com/yourname/chrominance"
+      }
+    }
+  },  
   {
     name: "BLS Hack Club",
     subtext: "JQuery",
-    overview: "Website to inspire learning and resource usage for coding enthusiasts at BLS."
+    overview: "Website to inspire learning and resource usage for coding enthusiasts at BLS.",
+    details: {
+      description: "BLS Hack Club is a student-led website built for the Boston Latin School Hack Club. It aims to motivate students to learn coding through shared resources, project showcases, and meeting announcements. It uses jQuery for interactivity and encourages peer-to-peer collaboration.",
+      key_features: [
+        "Announcements and event calendar for club meetings.",
+        "Resource library for tutorials, tools, and coding guides.",
+        "Showcase section for student projects.",
+        "Interactive and easy-to-navigate layout."
+      ],
+      tech_stack: [
+        "jQuery (Interactivity)",
+        "CSS3 (Styling)"
+      ],
+      preview: "https://example.com/bls-hackclub-preview",
+      links: {
+        live: "https://blshackclub.example.com",
+        github: "https://github.com/yourname/bls-hack-club"
+      }
+    }
   }
 ];
