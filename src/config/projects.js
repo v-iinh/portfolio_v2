@@ -27,7 +27,7 @@ export const projects = [
         "Javascript (Interactivity)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://example.com/socratic-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://socratic.example.com",
         github: "https://github.com/yourname/socratic"
@@ -51,7 +51,7 @@ export const projects = [
         "REST API (Backend Integration)",
         "Tailwind (Styling)"
       ],
-      gallery: "https://example.com/pirate-shore-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://pirateshore.example.com",
         github: "https://github.com/yourname/pirate-shore"
@@ -76,7 +76,7 @@ export const projects = [
         "HTML5 Canvas (Rendering)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://example.com/sound-mania-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://soundmania.example.com",
         github: "https://github.com/yourname/sound-mania"
@@ -100,7 +100,7 @@ export const projects = [
         "CSS3 (Styling)",
         "LocalStorage API (Persistence of Trained Models)"
       ],
-      gallery: "https://example.com/self-driving-car-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://selfdrivingcar.example.com",
         github: "https://github.com/yourname/self-driving-car"
@@ -124,7 +124,7 @@ export const projects = [
         "SVG Maps (Rendering)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://example.com/historical-timelapse-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://historicaltimelapse.example.com",
         github: "https://github.com/yourname/historical-timelapse"
@@ -149,7 +149,7 @@ export const projects = [
         "JavaScript (Interactivity)",
         "LocalStorage API (Saving Logic)"
       ],
-      gallery: "https://example.com/chef-up-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://chefup.example.com",
         github: "https://github.com/yourname/chef-up"
@@ -172,7 +172,7 @@ export const projects = [
         "CoinGecko API (Live Data)",
         "Tailwind CSS (Styling)"
       ],
-      gallery: "https://example.com/coin-dash-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://coindash.example.com",
         github: "https://github.com/yourname/coin-dash"
@@ -195,7 +195,7 @@ export const projects = [
         "Tailwind CSS (Styling)",
         "News API (Live Data)",
       ],
-      gallery: "https://example.com/daily-quill-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://dailyquill.example.com",
         github: "https://github.com/yourname/the-daily-quill"
@@ -216,7 +216,7 @@ export const projects = [
       tech_stack: [
         "Three.js (Rendering)",
       ],
-      gallery: "https://example.com/claustrophobia-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://claustrophobia.example.com",
         github: "https://github.com/yourname/claustrophobia"
@@ -239,7 +239,7 @@ export const projects = [
         "HTML5 Canvas (Rendering)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://example.com/stem-garden-defense-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://stemgarden.example.com",
         github: "https://github.com/yourname/stem-garden-defense"
@@ -260,7 +260,7 @@ export const projects = [
       tech_stack: [
         "JavaScript (Interactivity)"
       ],
-      gallery: "https://example.com/editify-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://editify.example.com",
         github: "https://github.com/yourname/editify"
@@ -283,7 +283,7 @@ export const projects = [
         "Firebase (Authentication, Data Storage)",
         "JavaScript (Interactivity)"
       ],
-      gallery: "https://example.com/afh-ticket-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://afhticketsystem.example.com",
         github: "https://github.com/yourname/afh-ticket-system"
@@ -305,7 +305,7 @@ export const projects = [
         "jQuery (DOM interaction)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://example.com/chrominance-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://chrominance.example.com",
         github: "https://github.com/yourname/chrominance"
@@ -328,7 +328,7 @@ export const projects = [
         "jQuery (Interactivity)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://example.com/bls-hackclub-gallery",
+      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
       links: {
         live: "https://blshackclub.example.com",
         github: "https://github.com/yourname/bls-hack-club"

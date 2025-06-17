@@ -11,9 +11,7 @@ export function ProjectDetails({ info }) {
         heading="Gallery"
         subheading="Visual Preview"
         content={
-          <a href={info.details.gallery} target="_blank" rel="noreferrer">
-            View Project Preview
-          </a>
+          <img src={info.details.gallery} />
         }
       />
       <Detail
