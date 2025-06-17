@@ -1,11 +1,12 @@
 // 1. Web Development
-// 2. Mobile Apps
-// 4. Games and Interactive Media
-// 5. Data Science / Machine Learning
-// 6. DevOps / Infrastructure
-// 7. Embedded Systems / IoT
-// 8. Design and Prototyping
+// 2. Mobile App
+// 4. Game
+// 5. Machine Learning
+// 6. DevOp
+// 7. Embedded System
+// 8. Prototype
 // 9. Plugin
+// 10. Interactive Media
 
 export const projects = [
   {
