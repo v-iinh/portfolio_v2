@@ -27,7 +27,7 @@ export const projects = [
         "Javascript (Interactivity)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://socratic.example.com",
         github: "https://github.com/yourname/socratic"
@@ -51,7 +51,7 @@ export const projects = [
         "REST API (Backend Integration)",
         "Tailwind (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://pirateshore.example.com",
         github: "https://github.com/yourname/pirate-shore"
@@ -76,7 +76,7 @@ export const projects = [
         "HTML5 Canvas (Rendering)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://soundmania.example.com",
         github: "https://github.com/yourname/sound-mania"
@@ -100,7 +100,7 @@ export const projects = [
         "CSS3 (Styling)",
         "LocalStorage API (Persistence of Trained Models)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://selfdrivingcar.example.com",
         github: "https://github.com/yourname/self-driving-car"
@@ -124,7 +124,7 @@ export const projects = [
         "SVG Maps (Rendering)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://historicaltimelapse.example.com",
         github: "https://github.com/yourname/historical-timelapse"
@@ -149,7 +149,7 @@ export const projects = [
         "JavaScript (Interactivity)",
         "LocalStorage API (Saving Logic)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://chefup.example.com",
         github: "https://github.com/yourname/chef-up"
@@ -172,7 +172,7 @@ export const projects = [
         "CoinGecko API (Live Data)",
         "Tailwind CSS (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://coindash.example.com",
         github: "https://github.com/yourname/coin-dash"
@@ -195,7 +195,7 @@ export const projects = [
         "Tailwind CSS (Styling)",
         "News API (Live Data)",
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://dailyquill.example.com",
         github: "https://github.com/yourname/the-daily-quill"
@@ -216,7 +216,7 @@ export const projects = [
       tech_stack: [
         "Three.js (Rendering)",
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://claustrophobia.example.com",
         github: "https://github.com/yourname/claustrophobia"
@@ -239,7 +239,7 @@ export const projects = [
         "HTML5 Canvas (Rendering)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://stemgarden.example.com",
         github: "https://github.com/yourname/stem-garden-defense"
@@ -260,7 +260,7 @@ export const projects = [
       tech_stack: [
         "JavaScript (Interactivity)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://editify.example.com",
         github: "https://github.com/yourname/editify"
@@ -283,7 +283,7 @@ export const projects = [
         "Firebase (Authentication, Data Storage)",
         "JavaScript (Interactivity)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://afhticketsystem.example.com",
         github: "https://github.com/yourname/afh-ticket-system"
@@ -305,7 +305,7 @@ export const projects = [
         "jQuery (DOM interaction)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://chrominance.example.com",
         github: "https://github.com/yourname/chrominance"
@@ -328,7 +328,7 @@ export const projects = [
         "jQuery (Interactivity)",
         "CSS3 (Styling)"
       ],
-      gallery: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png",
+      gallery: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=",
       links: {
         live: "https://blshackclub.example.com",
         github: "https://github.com/yourname/bls-hack-club"
