@@ -8,22 +8,22 @@ export function ProjectDetails({ info }) {
       <Detail heading="Key Features" subheading="What makes it stand out" content={info.details.key_features} />
       <Detail heading="Tech Stack" subheading="Tools & technologies used" content={info.details.tech_stack} />
       <Detail
-        heading="Preview"
-        subheading="Visual or live preview"
+        heading="Gallery"
+        subheading="Visual Preview"
         content={
-          <a href={info.details.preview} target="_blank" rel="noreferrer">
+          <a href={info.details.gallery} target="_blank" rel="noreferrer">
             View Project Preview
           </a>
         }
       />
       <Detail
         heading="Links"
-        subheading="Live site and source code"
+        subheading="Relevant Redirects"
         content={
           <>
             <a href={info.details.links.live} target="_blank" rel="noreferrer">Live Project</a>
             <br />
-            <a href={info.details.links.github} target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href={info.details.links.github} target="_blank" rel="noreferrer">Source Code</a>
           </>
         }
       />

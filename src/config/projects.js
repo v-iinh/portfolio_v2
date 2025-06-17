@@ -1,7 +1,16 @@
+// 1. Web Development
+// 2. Mobile Apps
+// 4. Games and Interactive Media
+// 5. Data Science / Machine Learning
+// 6. DevOps / Infrastructure
+// 7. Embedded Systems / IoT
+// 8. Design and Prototyping
+// 9. Plugin
+
 export const projects = [
   {
     name: "Socratic",
-    subtext: "Groq + Firebase",
+    subtext: "Web Development",
     overview: "AI tools and tutor messaging system to help students excel.",
     details: {
       description: "Socratic is an educational platform that leverages AI models running on Groq and Firebase services to provide tutoring assistance. It helps students get guided instruction, explanations, and messaging with human tutors when needed.",
@@ -17,7 +26,7 @@ export const projects = [
         "Javascript (Interactivity)",
         "CSS3 (Styling)"
       ],
-      preview: "https://example.com/socratic-preview",
+      gallery: "https://example.com/socratic-gallery",
       links: {
         live: "https://socratic.example.com",
         github: "https://github.com/yourname/socratic"
@@ -26,7 +35,7 @@ export const projects = [
   },
   {
     name: "Pirate Shore",
-    subtext: "React + Rest API",
+    subtext: "Web Development",
     overview: "A streaming service offering free access to films.",
     details: {
       description: "Pirate Shore is a film streaming platform that offers a curated selection of movies available to watch for free, with a focus on smooth browsing, responsive UI, and accessible design. Users can search for titles, view detailed movie information, and stream content directly from the web app.",
@@ -41,7 +50,7 @@ export const projects = [
         "REST API (Backend Integration)",
         "Tailwind (Styling)"
       ],
-      preview: "https://example.com/pirate-shore-preview",
+      gallery: "https://example.com/pirate-shore-gallery",
       links: {
         live: "https://pirateshore.example.com",
         github: "https://github.com/yourname/pirate-shore"
@@ -50,7 +59,7 @@ export const projects = [
   },  
   {
     name: "Sound Mania",
-    subtext: "Javascript",
+    subtext: "Game",
     overview: "A rhythm game with different modes, difficulties, and scoring system.",
     details: {
       description: "Sound Mania is a browser-based rhythm game that challenges players with dynamic gameplay, varying difficulty levels, and multiple game modes. Players hit notes in sync with the music, earning scores based on timing and accuracy. The game features smooth animations, custom controls, and real-time feedback.",
@@ -66,7 +75,7 @@ export const projects = [
         "HTML5 Canvas (Rendering)",
         "CSS3 (Styling)"
       ],
-      preview: "https://example.com/sound-mania-preview",
+      gallery: "https://example.com/sound-mania-gallery",
       links: {
         live: "https://soundmania.example.com",
         github: "https://github.com/yourname/sound-mania"
@@ -75,7 +84,7 @@ export const projects = [
   },  
   {
     name: "Self Driving Car",
-    subtext: "Javascript",
+    subtext: "Game",
     overview: "An interactive and customizable self-driving car simulator.",
     details: {
       description: "A browser-based simulation that demonstrates the principles of neural networks and evolutionary algorithms applied to autonomous vehicles. Built with Javascript and based on the popular guide by FreeCodeCamp. This version introduces user-configurable parameters such as car population size and mutation rate, allowing users to experiment with AI training dynamics in real-time.",
@@ -90,7 +99,7 @@ export const projects = [
         "CSS3 (Styling)",
         "LocalStorage API (Persistence of Trained Models)"
       ],
-      preview: "https://example.com/self-driving-car-preview",
+      gallery: "https://example.com/self-driving-car-gallery",
       links: {
         live: "https://selfdrivingcar.example.com",
         github: "https://github.com/yourname/self-driving-car"
@@ -99,7 +108,7 @@ export const projects = [
   },  
   {
     name: "Historical Timelapse",
-    subtext: "Javascript",
+    subtext: "Interactive Media",
     overview: "Timeline of major world empires with GDP and population data.",
     details: {
       description: "Historical Timelapse is an interactive data visualization tool that charts the rise and fall of major world empires over time. It uses a custom dataset to plot key metrics like GDP and population across centuries. Empires are color-coded and placed on a scrolling timeline, allowing users to explore global history.",
@@ -114,7 +123,7 @@ export const projects = [
         "SVG Maps (Rendering)",
         "CSS3 (Styling)"
       ],
-      preview: "https://example.com/historical-timelapse-preview",
+      gallery: "https://example.com/historical-timelapse-gallery",
       links: {
         live: "https://historicaltimelapse.example.com",
         github: "https://github.com/yourname/historical-timelapse"
@@ -123,7 +132,7 @@ export const projects = [
   },  
   {
     name: "Chef Up",
-    subtext: "React + Tailwind",
+    subtext: "Web Development",
     overview: "A recipe finder with search features and the ability to save recipes.",
     details: {
       description: "Chef Up is a sleek, responsive recipe discovery app that allows users to search for recipes by ingredients or keywords, and save their favorite recipes for later access.",
@@ -139,7 +148,7 @@ export const projects = [
         "JavaScript (Interactivity)",
         "LocalStorage API (Saving Logic)"
       ],
-      preview: "https://example.com/chef-up-preview",
+      gallery: "https://example.com/chef-up-gallery",
       links: {
         live: "https://chefup.example.com",
         github: "https://github.com/yourname/chef-up"
@@ -148,7 +157,7 @@ export const projects = [
   },  
   {
     name: "Coin Dash",
-    subtext: "React + CoinGecko",
+    subtext: "Web Development",
     overview: "View and search Crypto and NFT data within a sleek app.",
     details: {
       description: "Coin Dash is a modern crypto dashboard that integrates the CoinGecko API to display live cryptocurrency and NFT data. Users can browse market trends, search specific coins or tokens, and explore price, volume, and market cap data.",
@@ -162,7 +171,7 @@ export const projects = [
         "CoinGecko API (Live Data)",
         "Tailwind CSS (Styling)"
       ],
-      preview: "https://example.com/coin-dash-preview",
+      gallery: "https://example.com/coin-dash-gallery",
       links: {
         live: "https://coindash.example.com",
         github: "https://github.com/yourname/coin-dash"
@@ -171,21 +180,21 @@ export const projects = [
   },  
   {
     name: "The Daily Quill",
-    subtext: "React + Tailwind",
+    subtext: "Web Development",
     overview: "News app providing daily updates and a search system.",
     details: {
       description: "The Daily Quill is a responsive news application that curates the latest headlines and allows users to search across a wide range of topics. It delivers a clean reading experience with quick access to stories from various sources.",
       key_features: [
         "Daily news feed with auto-refreshing headlines.",
         "Search functionality by topic or keyword.",
-        "Article previews with links to full content.",
+        "Article gallerys with links to full content.",
       ],
       tech_stack: [
         "React (Frontend)",
         "Tailwind CSS (Styling)",
         "News API (Live Data)",
       ],
-      preview: "https://example.com/daily-quill-preview",
+      gallery: "https://example.com/daily-quill-gallery",
       links: {
         live: "https://dailyquill.example.com",
         github: "https://github.com/yourname/the-daily-quill"
@@ -194,7 +203,7 @@ export const projects = [
   },  
   {
     name: "Claustrophobia",
-    subtext: "Three.js",
+    subtext: "Game",
     overview: "An immersive 3D horror game simulating dark confined spaces.",
     details: {
       description: "Claustrophobia is a browser-based 3D horror game that simulates the tension of navigating through dark, confined spaces. The game uses movement mechanics to deliver an atmospheric and suspenseful experience.",
@@ -206,7 +215,7 @@ export const projects = [
       tech_stack: [
         "Three.js (Rendering)",
       ],
-      preview: "https://example.com/claustrophobia-preview",
+      gallery: "https://example.com/claustrophobia-gallery",
       links: {
         live: "https://claustrophobia.example.com",
         github: "https://github.com/yourname/claustrophobia"
@@ -215,7 +224,7 @@ export const projects = [
   },  
   {
     name: "Stem Garden Defense",
-    subtext: "Javascript",
+    subtext: "Game",
     overview: "Tower defense game showcased at Wonderland Hackathon.",
     details: {
       description: "Stem Garden Defense is a browser-based tower defense game developed for the Wonderland Hackathon. It features a unique garden theme where players strategically place towers to defend against waves of enemies.",
@@ -229,7 +238,7 @@ export const projects = [
         "HTML5 Canvas (Rendering)",
         "CSS3 (Styling)"
       ],
-      preview: "https://example.com/stem-garden-defense-preview",
+      gallery: "https://example.com/stem-garden-defense-gallery",
       links: {
         live: "https://stemgarden.example.com",
         github: "https://github.com/yourname/stem-garden-defense"
@@ -238,10 +247,10 @@ export const projects = [
   },  
   {
     name: "Editify",
-    subtext: "Javascript",
+    subtext: "Web Development",
     overview: "Universal file editor web app allowing online file editing and saving.",
     details: {
-      description: "Editify is a web-based file editor that supports editing a wide range of text-based formats. It allows users to upload, edit, and download files directly in the browser. It supports syntax highlighting, file previews, and a streamlined editing interface.",
+      description: "Editify is a web-based file editor that supports editing a wide range of text-based formats. It allows users to upload, edit, and download files directly in the browser. It supports syntax highlighting, file gallerys, and a streamlined editing interface.",
       key_features: [
         "Upload and edit various file formats in-browser.",
         "Download or overwrite edited files locally.",
@@ -250,7 +259,7 @@ export const projects = [
       tech_stack: [
         "JavaScript (Interactivity)"
       ],
-      preview: "https://example.com/editify-preview",
+      gallery: "https://example.com/editify-gallery",
       links: {
         live: "https://editify.example.com",
         github: "https://github.com/yourname/editify"
@@ -259,7 +268,7 @@ export const projects = [
   },  
   {
     name: "AFH Ticket System",
-    subtext: "Firebase",
+    subtext: "Web Development",
     overview: "Automated ticketing system streamlining management and tracking.",
     details: {
       description: "AFH Ticket System is an internal support ticketing platform designed to streamline the process of submitting, managing, and resolving tickets. It supports real-time updates, user authentication, and status tracking for efficient management.",
@@ -273,7 +282,7 @@ export const projects = [
         "Firebase (Authentication, Data Storage)",
         "JavaScript (Interactivity)"
       ],
-      preview: "https://example.com/afh-ticket-preview",
+      gallery: "https://example.com/afh-ticket-gallery",
       links: {
         live: "https://afhticketsystem.example.com",
         github: "https://github.com/yourname/afh-ticket-system"
@@ -282,8 +291,8 @@ export const projects = [
   },  
   {
     name: "Chrominance",
-    subtext: "JQuery + Rest API",
-    overview: "Browser extension helping designers identify colors and find matching palettes.",
+    subtext: "Plugin",
+    overview: "Tool helping designers identify colors and find matching palettes.",
     details: {
       description: "Chrominance is a lightweight browser extension built with jQuery that helps designers and developers identify colors on any webpage. It offers matching palette suggestions, accessibility contrast checks, and direct export of color themes.",
       key_features: [
@@ -295,7 +304,7 @@ export const projects = [
         "jQuery (DOM interaction)",
         "CSS3 (Styling)"
       ],
-      preview: "https://example.com/chrominance-preview",
+      gallery: "https://example.com/chrominance-gallery",
       links: {
         live: "https://chrominance.example.com",
         github: "https://github.com/yourname/chrominance"
@@ -304,10 +313,10 @@ export const projects = [
   },  
   {
     name: "BLS Hack Club",
-    subtext: "JQuery",
-    overview: "Website to inspire learning and resource usage for coding enthusiasts at BLS.",
+    subtext: "Web Development",
+    overview: "Web Development to inspire learning and resource usage for coding enthusiasts at BLS.",
     details: {
-      description: "BLS Hack Club is a student-led website built for the Boston Latin School Hack Club. It aims to motivate students to learn coding through shared resources, project showcases, and meeting announcements. It uses jQuery for interactivity and encourages peer-to-peer collaboration.",
+      description: "BLS Hack Club is a student-led Web Development built for the Boston Latin School Hack Club. It aims to motivate students to learn coding through shared resources, project showcases, and meeting announcements. It uses jQuery for interactivity and encourages peer-to-peer collaboration.",
       key_features: [
         "Announcements and event calendar for club meetings.",
         "Resource library for tutorials, tools, and coding guides.",
@@ -318,7 +327,7 @@ export const projects = [
         "jQuery (Interactivity)",
         "CSS3 (Styling)"
       ],
-      preview: "https://example.com/bls-hackclub-preview",
+      gallery: "https://example.com/bls-hackclub-gallery",
       links: {
         live: "https://blshackclub.example.com",
         github: "https://github.com/yourname/bls-hack-club"
