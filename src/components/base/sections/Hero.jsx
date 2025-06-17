@@ -16,7 +16,7 @@ function Hero() {
       <div className='description'>
         <p>
           <span>
-            I'm a <span className='highlight'>software engineer</span> from <span className='highlight'>Boston</span> with <span className='highlight'>3 years of experience</span>. I specialize in <span className='highlight'>web development</span>, with a focus on <span className='highlight'>user experience</span> and <span className='highlight'>design</span>. I am currently a <span className='highlight'>student at Boston University</span>, studying <span className='highlight'>Computer Engineering</span>, and am <span className='highlight'>open to work</span>.
+            I'm a <span className='highlight'>software engineer</span> from <span className='highlight'>Boston</span> with <span className='highlight'>3 years of experience</span>. I specialize in <span className='highlight'>web development</span>, with a focus on <span className='highlight'>user experience</span> and <span className='highlight'>design</span>. I am currently a <span className='highlight'>student at Northeastern University</span>, studying <span className='highlight'>Computer Engineering</span>, and am <span className='highlight'>open to work</span>.
           </span>
         </p>
       </div>
