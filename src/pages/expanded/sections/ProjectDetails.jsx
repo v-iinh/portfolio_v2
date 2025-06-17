@@ -15,11 +15,7 @@ export function ProjectDetails({ info }) {
           <a href={info.details.links.github} target="_blank" rel="noreferrer" key="github">Source Code</a>
         ]}
       />
-      <Detail
-        heading="Gallery"
-        subheading="Visual Preview"
-        content={<img src={info.details.gallery} alt="Project Preview" />}
-      />
+      <Detail heading="Gallery" subheading="Visual Preview" content={<img src={info.details.gallery} alt="Project Preview" />} />
     </div>
   );
 }
