@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./Projects.css";
 import {Slugify, Card} from "../../components/card/Card";
 import { projects } from "../../config/projects";
