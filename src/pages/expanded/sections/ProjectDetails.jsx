@@ -5,8 +5,6 @@ export function ProjectDetails({ info }) {
   return (
     <div className="detail_container">
       <Detail heading={info.name} subheading="General Overview" content={info.details.description} />
-      <Detail heading="Key Features" subheading="What makes it stand out" content={info.details.key_features} />
-      <Detail heading="Tech Stack" subheading="Tools & technologies used" content={info.details.tech_stack} />
       <Detail
         heading="Links"
         subheading="Relevant Redirects"
