@@ -1,10 +1,10 @@
 export const academic = [
   {
     name: "Northeastern University",
-    subtext: "B.S in Computer Engineering",
-    overview: "Currently studying Computer Engineering, focusing on software development and embedded systems.",
+    subtext: "B.S in Computer Science",
+    overview: "Currently studying Computer Science, focusing on software development and embedded systems.",
     details: {
-      description: "Currently studying Computer Engineering, focusing on software development and embedded systems.",
+      description: "Currently studying Computer Science, focusing on software development and embedded systems.",
       key_features: [
         "Developed a compiler for a custom programming language.",
         "Researched energy-efficient processor architectures.",

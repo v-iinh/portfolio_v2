@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import './App.css';
 
@@ -14,6 +14,11 @@ const AppContent = () => {
 
   const mobileRoutes = useAppRoutes({ isMobile: true, menu, activeMenu, setFullScreen });
   const desktopRoutes = useAppRoutes({ isMobile: false, menu, activeMenu, setFullScreen });
+
+  useEffect(() => {
+    document.querySelector('.main')?.scrollTo(0, 0);
+    document.querySelector('.App')?.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <div className='App'>
