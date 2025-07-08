@@ -27,7 +27,7 @@ export const projects = [
   {
     name: "Self Driving Car",
     subtext: "Game",
-    overview: "An interactive and customizable self-driving car simulator.",
+    overview: "An interactive and customizable self-driving car neural network.",
   },  
   {
     name: "Historical Timelapse",
@@ -47,7 +47,7 @@ export const projects = [
   {
     name: "The Daily Quill",
     subtext: "Web Development",
-    overview: "News app providing daily updates and a search system.",
+    overview: "News app providing real-time updates and a search system.",
   },  
   {
     name: "Claustrophobia",
@@ -57,7 +57,7 @@ export const projects = [
   {
     name: "Stem Garden Defense",
     subtext: "Game",
-    overview: "Tower defense game showcased at Wonderland Hackathon.",
+    overview: "Tower defense game showcased at the Wonderland Hackathon.",
   },  
   {
     name: "Editify",
@@ -67,7 +67,7 @@ export const projects = [
   {
     name: "AFH Ticket System",
     subtext: "Web Development",
-    overview: "Automated ticketing system streamlining management and tracking.",
+    overview: "Ticketing platform to track and manage communication at AFH.",
   },  
   {
     name: "Chrominance",
@@ -77,6 +77,6 @@ export const projects = [
   {
     name: "BLS Hack Club",
     subtext: "Web Development",
-    overview: "Web Development to inspire learning and resource usage for coding enthusiasts at BLS.",
+    overview: "Hub for announcements and resources of Boston Latin's Hack Club.",
   }
 ];

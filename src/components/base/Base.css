@@ -163,7 +163,7 @@ nav ul li:hover a img {
 .footer .social a {
   display: flex;
   align-items: center;
-  font-size: var(--small-font);
+  font-size: var(--normal-font);
   margin-right: 1rem;
   color: inherit;
   text-decoration: none;
