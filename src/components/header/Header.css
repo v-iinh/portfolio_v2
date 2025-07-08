@@ -9,8 +9,6 @@
   align-items: center;
   width: 100%;
   z-index: 3;
-  border-bottom: 2px solid white;
-  padding-bottom: 5%;
 } 
 
 #header .header_wrapper .logo_container {
