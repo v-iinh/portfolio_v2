@@ -35,11 +35,11 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
-.card:hover .card_truncate {
+.card:hover p.card_truncate {
   overflow: visible;
   text-overflow: unset;
   display: block;
@@ -101,6 +101,12 @@
 
 .card_links a:last-child {
   margin-right: 0px;
+}
+
+.timeframe {
+  margin: 1rem 0 0 0;
+  line-height: 2;
+  font-size: var(--small-font);
 }
 
 @media (min-width: 993px) {
@@ -166,10 +172,5 @@
 
   .card .card_content p {
     height: auto;
-  }
-
-  .card_truncate {
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
   }
 }

@@ -11,9 +11,8 @@ const linkIcons = {
 };
 
 export function Card({ data }) {
-  const { name, subtext, overview, links } = data;
-  const linkEntries = links && Object.entries(links);
-  const validLinks = linkEntries?.filter(([k, url]) => url && linkIcons[k]);
+  const { name, subtext, overview, links, timeframe } = data;
+  const validLinks = links ? Object.entries(links) : [];
 
   return (
     <div className='card_container'>
@@ -23,17 +22,22 @@ export function Card({ data }) {
           <small className='card_truncate'>{subtext}</small>
           <p className='card_truncate'>{overview}</p>
         </div>
-        {validLinks?.length > 0 && (
+        {validLinks.length > 0 && (
           <div className='card_links'>
             {validLinks.map(([k, url]) => {
-              const { icon, label } = linkIcons[k];
+              const { icon, label } = linkIcons[k] || {};
               return (
                 <a key={k} href={url} target="_blank" rel="noreferrer">
-                  <i className={icon}></i>
-                  {label}
+                  {icon && <i className={icon}></i>}
+                  {label || k}
                 </a>
               );
             })}
+          </div>
+        )}
+        {timeframe && (
+          <div className='timeframe'>
+            {timeframe}
           </div>
         )}
       </div>
