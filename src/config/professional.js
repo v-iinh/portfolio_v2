@@ -2,7 +2,7 @@ export const professional = [
   {
     name: "Artists for Humanity",
     subtext: "Full Stack Developer",
-    overview: "Worked on several client projects involving full stack development, design, and interactive installations. Gained hands on experience in both technical and creative technologies.",
+    overview: "Worked on several client projects involving full stack development, design, and interactive installations. Hands on experience with both technical and creative technologies.",
   },
   {
     name: "Digital Ready",

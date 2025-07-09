@@ -15,6 +15,9 @@ function Footer() {
         <a href='https://github.com/v-iinh' target='_blank' rel='noreferrer'>
           <i className='fab fa-github'></i> Github
         </a>
+        <a href='https://www.instagram.com/v_iinh/' target='_blank' rel='noreferrer'>
+          <i className='fab fa-instagram'></i> Instgram
+        </a>
       </div>
     </div>
   );

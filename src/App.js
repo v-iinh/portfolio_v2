@@ -30,6 +30,7 @@ const AppContent = () => {
             <a href="mailto:officiallyvt@gmail.com" target="_blank" rel="noreferrer"><i className='fab fa-google'></i></a>
             <a href="https://www.linkedin.com/in/viinh/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
             <a href="https://github.com/v-iinh" target="_blank" rel="noreferrer"><i className='fab fa-github'></i></a>
+            <a href="https://www.instagram.com/v_iinh/" target="_blank" rel="noreferrer"><i className='fab fa-instagram'></i></a>
           </div>
         )}
       </div>

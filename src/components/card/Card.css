@@ -79,7 +79,28 @@
   font-family: "air-light";
   font-weight: 600;
   margin: 1rem 0 0 0;
-  height: 5rem;
+}
+
+.card_links {
+  margin: 1rem 0 0 0;
+  display: flex;
+  align-items: center;
+  line-height: 2;
+}
+
+.card_links .fas {
+  margin-right: 5px;
+}
+
+.card_links a {
+  color: white;
+  font-size: var(--small-font);
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.card_links a:last-child {
+  margin-right: 0px;
 }
 
 @media (min-width: 993px) {
