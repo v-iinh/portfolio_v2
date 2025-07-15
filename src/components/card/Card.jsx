@@ -36,9 +36,9 @@ export function Card({ data }) {
           </div>
         )}
         {timeframe && (
-          <div className='timeframe'>
+          <small className='timeframe'>
             {timeframe}
-          </div>
+          </small>
         )}
       </div>
     </div>

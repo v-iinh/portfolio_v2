@@ -60,7 +60,7 @@
   display: block;
 }
 
-.card .card_content small {
+.card .card_content small, .timeframe, .card_links a {
   margin-bottom: 13px;
   font-size: 0.65rem;
   letter-spacing: 1.5px;
@@ -93,8 +93,6 @@
 }
 
 .card_links a {
-  color: white;
-  font-size: var(--small-font);
   margin-right: 1rem;
   text-decoration: none;
 }
@@ -105,8 +103,6 @@
 
 .timeframe {
   margin: 1rem 0 0 0;
-  line-height: 2;
-  font-size: var(--small-font);
 }
 
 @media (min-width: 993px) {
