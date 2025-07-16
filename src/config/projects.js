@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Socratic",
-    subtext: "Web Development",
+    subtext: "React + Tailwind + Firebase",
     overview: "AI tools and tutor messaging system to help students excel.",
     links: {
       view: "https://socratic.help/",
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     name: "Pirate Shore",
-    subtext: "Web Development",
+    subtext: "React + Tailwind",
     overview: "A streaming service offering free access to films.",
     links: {
       view: "https://pirate-shore.netlify.app/",
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     name: "Sound Mania",
-    subtext: "Game",
+    subtext: "Javascript",
     overview: "A rhythm game with different modes, difficulties, and scoring system.",
     links: {
       view: "https://v-iinh.github.io/sound-mania/",
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     name: "Self Driving Car",
-    subtext: "Game",
+    subtext: "Javascript",
     overview: "An interactive and customizable self-driving car neural network.",
     links: {
       view: "https://v-iinh.github.io/self-driving-car/",
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     name: "Historical Timelapse",
-    subtext: "Interactive Media",
+    subtext: "Javascript",
     overview: "Timeline of major world empires with GDP and population data.",
     links: {
       view: "https://historicaltimelapse.netlify.app/",
@@ -45,7 +45,7 @@ export const projects = [
   },
   {
     name: "Stem Garden Defense",
-    subtext: "Game",
+    subtext: "Javascript",
     overview: "Tower defense game showcased at the Wonderland Hackathon.",
     links: {
       view: "https://ilykcaj.github.io/wonderland20/",
@@ -54,7 +54,7 @@ export const projects = [
   },
   {
     name: "AFH Ticket System",
-    subtext: "Web Development",
+    subtext: "Javascript + Firebase",
     overview: "Ticketing platform to track and manage communication at AFH.",
     links: {
       view: "https://afhtokens.netlify.app/"
@@ -62,7 +62,7 @@ export const projects = [
   },
   {
     name: "Chrominance",
-    subtext: "Plugin",
+    subtext: "Javascript",
     overview: "Tool for designers to identify colors and find matching palettes.",
     links: {
       source: "https://github.com/v-iinh/chrominance",
