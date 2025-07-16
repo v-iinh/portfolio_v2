@@ -85,7 +85,6 @@
   margin: 1rem 0 0 0;
   display: flex;
   align-items: center;
-  line-height: 2;
 }
 
 .card_links .fas {
@@ -93,7 +92,7 @@
 }
 
 .card_links a {
-  margin-right: 1rem;
+  margin: 0 1rem 0 0;
   text-decoration: none;
 }
 
